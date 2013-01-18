@@ -1,0 +1,18 @@
+extends layout
+
+block append head
+    link(rel='stylesheet', href='/stylesheets/search-style.css')
+
+block content
+  
+  h1= title
+  input#search_box(value = q)
+  #list
+    each link in links
+      hr.fade
+      .result
+        p.link !{link.a} !{q}
+        p.url !{link.url}
+        p.description !{link.description}
+        p.images !{link.images}
+      

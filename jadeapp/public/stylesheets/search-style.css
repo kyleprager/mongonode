@@ -1,0 +1,81 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+input#search_box {
+    margin-bottom: 20px;
+}
+
+div#list div {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+div.result {
+    line-height: 1.2;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+p.link {
+    font-size: medium;
+    font-weight: normal;
+}
+
+a:link {
+    color: #1122CC;
+}
+
+a:visited {
+    color: purple;
+}
+
+p.url {
+    color: #009933;
+}
+
+p.description {
+    font-size: small;
+}
+
+hr.fade {
+    border: 0;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+}
+
+/* 
+li.g {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+li.head, li.g, body, html, .std, .c h2, #mbEnd h2, h1 {
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+ol li {
+    list-style: none outside none;
+}
+li {
+    line-height: 1.2;
+}
+ol, ul, li {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+h1, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+ */
+
+

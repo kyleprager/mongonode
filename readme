@@ -1,0 +1,8 @@
+this app does an infinite scrolling version of google search results.
+
+**********
+STARTUP
+**********
+
+type 'node app' from inside of the 'jadeapp' folder.  This starts the app
+by calling the app.js file using node.
